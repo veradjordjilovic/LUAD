@@ -3,7 +3,7 @@ library(tidyverse)
 library(MatchIt)
 library(penalizedclr)
 #read in the data
-load("~/Dropbox/WorkingProjects/MultiOmics/LUAD/LUAD.rdata")
+load("LUAD.rdata")
 
 # create 3 year survival variable 
 # 1 for those alive after 3*365 days, 0 for dead, and NA for censored prior to 3*365 mark)
